@@ -13,11 +13,9 @@ body{
     display: -ms-flexbox;
     display: flex;
 
-    flex-wrap: wrap;
-    justify-content: center;
-    /*esta propiedad solo funciona
-    para varias filas*/
-    align-content: space-around;
+    flex-wrap: no-wrap;
+    flex-direction: row;
+    align-items: center;
 }
 
 .elemento{
@@ -25,7 +23,7 @@ body{
     margin: 5px;
     background: #E67E22;
     text-align: center;
-    width: 200px;
+    flex-basis: 50px;
     /*height: 50px;*/
 }
 
