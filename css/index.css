@@ -13,7 +13,8 @@ body{
     display: -ms-flexbox;
     display: flex;
 
-    flex-direction: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 .elemento{
@@ -21,7 +22,7 @@ body{
     margin: 5px;
     background: #E67E22;
     text-align: center;
-    width: 50px;
+    width: 200px;
     height: 50px;
 }
 
