@@ -13,10 +13,15 @@ body{
     display: -ms-flexbox;
     display: flex;
 
+    /*   
     flex-direction: row;
     flex-wrap: wrap;
-
+    Atajo de estas dos instrucciones
+    */
+ 
+    flex-flow: row wrap;
 }
+
 .elemento{
     color: #fff;
     margin: 5px;
