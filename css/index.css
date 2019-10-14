@@ -40,7 +40,7 @@ body{
 
 .elemento2{
     order: 3;
-
+    align-self: flex-start;
 }
 .elemento3{
     order: 1;
